@@ -1,6 +1,6 @@
 // USER MODEL AND SCHEMA //
 // import Mongoose Schema and model
-const { Schema, model } = require('mongoose');
+const { Schema, model, Types } = require('mongoose');
 // import Thought model
 const Thought = require('./Thought');
 
