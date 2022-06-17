@@ -1,7 +1,10 @@
 // THOUGHT MODEL AND SCHEMA //
 // import Mongoose Schema and model
 const { Schema, model, Types } = require('mongoose');
-// import dateFormat to format createdAt on query
+// import luxon DateTime and dateFormat util function
+const { DateTime } = require('luxon');
+const dateFormat = require('../utils/dateFormat');
+
 
 // schema set up for Reactions (SUBDOCUMENT)
 const ReactionSchema = new Schema(
@@ -24,8 +27,8 @@ const ReactionSchema = new Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now,
-      // get: createdAtVal => dateFormat(createdAtVal)
+      default: DateTime.local(),
+      get: createdAtVal => dateFormat(createdAtVal)
     }
   },
   {
@@ -49,8 +52,8 @@ const ThoughtSchema = new Schema(
     },
     createdAt: {
       type: Date,
-      default: Date.now,
-      // get: createdAtVal => dateFormat(createdAtVal)
+      default: DateTime.local(),
+      get: createdAtVal => dateFormat(createdAtVal)
     },
     username: {
       type: String,
