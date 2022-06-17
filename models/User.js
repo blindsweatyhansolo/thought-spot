@@ -53,6 +53,9 @@ UserSchema.virtual('friendCount').get(function() {
 });
 
 // (!BONUS!) set associated thoughts to be removed on User deletion
+UserSchema.post("findOneAndDelete", async (query) => {
+  await Thought.deleteMany({ username: query.username });
+});
 
 // create User model using UserSchema
 const User = model('User', UserSchema);

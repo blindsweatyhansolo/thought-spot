@@ -33,7 +33,7 @@ const ReactionSchema = new Schema(
       getters: true
     },
     // !IMPORTANT! remember to set id: false in the schema options to avoid errors
-    id: false
+    _id: false
   }
 );
 

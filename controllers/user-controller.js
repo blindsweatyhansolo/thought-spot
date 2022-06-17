@@ -99,7 +99,7 @@ const userController = {
       { $push: { friends: params.friendId } },
       { new: true }
     )
-    .then(dbUserData => {
+    .then((dbUserData) => {
       // if no user found, send 404
       if (!dbUserData) {
         res.sendStatus(404).json({ message: 'No user found with that id!' });

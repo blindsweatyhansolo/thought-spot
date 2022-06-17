@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // import route scripts
-// app.use(require('./routes'));
+app.use(require('./routes'));
 
 // instruct Mongoose which DB to connect to
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/thought-spot', 
