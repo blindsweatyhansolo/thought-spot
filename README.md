@@ -68,12 +68,14 @@ Contributions always welcome!
 
 ## [Additional Information:](#table-of-contents)
 Technologies Used:
+* JavaScript
 * Node.js
 * Express.js
 * NoSQL / [MongoDB](https://www.mongodb.com/)
 * [Mongoose](https://mongoosejs.com/)
 
 Other Packages Used:
+* [Luxon](https://moment.github.io/luxon/#/)
 * [nodemon](https://www.npmjs.com/package/nodemon)
 
 _If you have any questions about the application, or would like to become a contributor, please contact me using the information below:_
