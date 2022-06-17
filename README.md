@@ -40,23 +40,25 @@ Start the database connection and server from the command line with `npm start`,
 
 **Finding all Users and Thoughts:**
 
-![Demo gif of GET all routes]()
+![Demo gif of GET all routes](./assets/images/GET%20all%20-%20thoughtspot.gif)
 
 **Finding individual Users and Thoughts:**
 
-![Demo gif of GET single routes]()
+![Demo gif of GET single routes](./assets/images/GET%20single%20-%20thoughtspot.gif)
 
 **Create new instances of Users, Friends, Thoughts and Reactions:**
 
-![Demo gif of POST routes]()
+![Demo gif of POST new user and friend routes](./assets/images/POST%20user%20friend%20-%20thoughtspot.gif)
 
-**Update Users, Thoughts, and Reactions:**
+![Demo gif of POST new thought and reaction routes](./assets/images/POST%20thought%20reaction%20-%20thoughtspot.gif)
 
-![Demo gif of PUT routes]()
+**Update Users and Thoughts:**
 
-**Delete Users, Friends, Thoughts, and Reactions:**
+![Demo gif of PUT routes](./assets/images/PUT%20routes%20-%20thoughtspot.gif)
 
-![Demo gif of DELETE routes]()
+**Delete Users, Friends, and Thoughts:**
+
+![Demo gif of DELETE routes](./assets/images/DELETE%20routes%20-%20thoughtspot.gif)
 
 ## [Testing:](#testing)
 As seen above, test API endpoints with a REST Client such as [Insomnia](https://insomnia.rest/) or [Postman](https://www.postman.com/)
