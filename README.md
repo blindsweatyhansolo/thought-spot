@@ -29,9 +29,9 @@ This is a back-end application with no front-end implementation that requires No
 
 ## [Usage:](#table-of-contents)
 Walkthrough Videos:
-1. [Overview & Installation]()
-2. [GET Routes]()
-3. [POST Routes]()
+1. [Overview & Installation](https://drive.google.com/file/d/18yGQ2zHi7oPTYea7DGtijfDFamxKKVqo/view)
+2. [GET Routes](https://drive.google.com/file/d/1A5IUjyBNeYou6GkTNrdU4vO-hRFezlM8/view)
+3. [POST Routes](https://drive.google.com/file/d/1JXan_soUbXFiySeUo5ioXBxvF8zKdB9b/view)
 4. [PUT / DELETE Routes]()
 
 ***
