@@ -48,7 +48,7 @@ const thoughtController = {
       .then((dbThoughtData) => {
         // if no thought found, send 404
         if (!dbThoughtData) {
-          res.sendStatus(404).json({ message: 'No thought found with that id!' });
+          res.status(404).json({ message: 'No thought found with that id!' });
           return;
         }
         res.json(dbThoughtData);

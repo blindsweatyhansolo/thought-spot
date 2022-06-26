@@ -17,7 +17,7 @@ const userController = {
       .then(dbUserData => res.json(dbUserData))
       .catch(err => {
         console.log(err);
-        res.sendStatus(400).json(err);
+        res.status(400).json(err);
       });
   },
 
@@ -36,14 +36,14 @@ const userController = {
       .then(dbUserData => {
         // if no user found, send 404
         if (!dbUserData) {
-          res.sendStatus(404).json({ message: 'No user found with that id!' });
+          res.status(404).json({ message: 'No user found with that id!' });
           return;
         }
         res.json(dbUserData);
       })
       .catch(err => {
         console.log(err);
-        res.sendStatus(400).json(err);
+        res.status(400).json(err);
       });
   },
 
@@ -53,7 +53,7 @@ const userController = {
       .then(dbUserData => res.json(dbUserData))
       .catch(err => {
         console.log(err);
-        res.sendStatus(400).json(err);
+        res.status(400).json(err);
       });
   },
 
@@ -67,14 +67,14 @@ const userController = {
       .then(dbUserData => {
         // if no user found, send 404
         if (!dbUserData) {
-          res.sendStatus(404).json({ message: 'No user found with that id!' });
+          res.status(404).json({ message: 'No user found with that id!' });
           return;
         }
         res.json(dbUserData);
       })
       .catch(err => {
         console.log(err);
-        res.sendStatus(400).json(err);
+        res.status(400).json(err);
       });
   },
 
@@ -84,14 +84,14 @@ const userController = {
       .then(dbUserData => {
         // if no user found, send 404
         if (!dbUserData) {
-          res.sendStatus(404).json({ message: 'No user found with that id!' });
+          res.status(404).json({ message: 'No user found with that id!' });
           return;
         }
         res.json(dbUserData);
       })
       .catch(err => {
         console.log(err);
-        res.sendStatus(400).json(err);
+        res.status(400).json(err);
       })
   },
 
@@ -106,14 +106,14 @@ const userController = {
     .then((dbUserData) => {
       // if no user found, send 404
       if (!dbUserData) {
-        res.sendStatus(404).json({ message: 'No user found with that id!' });
+        res.status(404).json({ message: 'No user found with that id!' });
         return;
       }
       res.json(dbUserData);
     })
     .catch(err => {
       console.log(err);
-      res.sendStatus(400).json(err);
+      res.status(400).json(err);
     });
   },
 
@@ -128,14 +128,14 @@ const userController = {
     .then(dbUserData => {
       // if no user found, send 404
       if (!dbUserData) {
-        res.sendStatus(404).json({ message: 'No user found with that id!' });
+        res.status(404).json({ message: 'No user found with that id!' });
         return;
       }
       res.json(dbUserData);
     })
     .catch(err => {
       console.log(err);
-      res.sendStatus(400).json(err);
+      res.status(400).json(err);
     });
   }
 };

@@ -32,7 +32,8 @@ Walkthrough Videos:
 1. [Overview & Installation](https://drive.google.com/file/d/18yGQ2zHi7oPTYea7DGtijfDFamxKKVqo/view)
 2. [GET Routes](https://drive.google.com/file/d/1A5IUjyBNeYou6GkTNrdU4vO-hRFezlM8/view)
 3. [POST Routes](https://drive.google.com/file/d/1JXan_soUbXFiySeUo5ioXBxvF8zKdB9b/view)
-4. [PUT / DELETE Routes]()
+4. [PUT Routes](https://drive.google.com/file/d/15F5FZpw4-ycCewxcI44CkbAcZjzELs59/view)
+5. [DELETE Routes](https://drive.google.com/file/d/1nmpVyTPv0RydNL2vDuzKSZkDYL1bQDtj/view)
 
 ***
 
